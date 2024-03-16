@@ -55,8 +55,6 @@ function RegisterPage() {
 
   const onSubmit = (params: Inputs) => {
     try {
-      console.log("params", params);
-      console.log(errors, "errors");
       setOpen(true);
     } catch (error) {
       console.log(error);
